@@ -28,12 +28,14 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    'element-ui/lib/theme-chalk/index.css'
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~plugins/element-ui'
   ],
 
   /*
@@ -49,8 +51,9 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
+    vendor: ['element-ui'],
     extend(config, ctx) {
-      
+
     }
   }
 }

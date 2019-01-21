@@ -1,13 +1,19 @@
 <template>
-  <div class="home">
-    <h1>index.vue</h1>
+  <div class="block">
+    <h4>Nuxt + ElementUI?</h4>
+    <el-rate v-model="value" :colors="['#2F3D4D', '#64B486', '#4B7C6E']"></el-rate>
   </div>
 </template>
 
 <script>
 
 export default {
-  layout: 'navbar'
+  layout: 'navbar',
+  data () {
+    return {
+      value: null
+    }
+  }
 }
 </script>
 
