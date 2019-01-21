@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <p>Nuxt</p>
+      <p>NuxtProject</p>
     </div>
   </section>
 </template>
