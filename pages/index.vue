@@ -1,14 +1,13 @@
 <template>
-  <section class="container">
-    <div>
-      <p>NuxtProject</p>
-    </div>
-  </section>
+  <div class="home">
+    <h1>index.vue</h1>
+  </div>
 </template>
 
 <script>
-export default {
 
+export default {
+  layout: 'navbar'
 }
 </script>
 
